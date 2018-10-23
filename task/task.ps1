@@ -10,6 +10,7 @@ try
     $authScheme = Get-VstsInput -Name "authscheme" -Require
     $sqlUsername = Get-VstsInput -Name "sqlUsername"
     $sqlPassword = Get-VstsInput -Name "sqlPassword"
+    $initialcatalog = Get-VstsTaskVariable -Name "InitialCatalog"
     $catalogPassword = Get-VstsInput -Name "catalogPassword"
     $sharedCatalog = Get-VstsInput -Name "sharedCatalog" -AsBool
     $dropProject = Get-VstsInput -Name "dropProject" -AsBool
