@@ -70,11 +70,11 @@ try
 
     if ($authScheme -eq "windowsAuthentication")
     {
-        $connectionString = Get-SqlConnectionString $InstanceName
+        $connectionString = Get-SqlConnectionString $InstanceName -InitialCatalog $initialcatalog
     }
     else
     {
-        $connectionString = Get-SqlConnectionString $InstanceName -IntegratedSecurity $false -Username $sqlUsername -Password $sqlPassword
+        $connectionString = Get-SqlConnectionString $InstanceName -IntegratedSecurity $false -Username $sqlUsername -Password $sqlPassword -InitialCatalog $initialcatalog
     }
 
     Write-Verbose "Connection string $connectionString"
