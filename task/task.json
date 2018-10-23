@@ -77,6 +77,15 @@
     },
     {
       "groupName":"server",
+      "name": "InitialCatalog",
+      "type": "string",
+      "label": "Initial Catalog",
+      "required": false,
+      "defaultValue": "SSISDB",
+      "helpMarkDown": "Initial catalog for the SQL connection string."
+    },    
+    {
+      "groupName":"server",
       "name": "SqlPassword",
       "type": "string",
       "label": "SQL Password",
