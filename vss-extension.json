@@ -1,10 +1,10 @@
 {
   "manifestVersion": 1,
-  "extensionId": "fc-deploy-ssis",
-  "name": "FC Deploy SSIS",
+  "extensionId": "deploy-ssis",
+  "name": "Deploy SSIS",
   "version": "1.0.6",
-  "publisher": "chitostodomingo",
-  "description": "FC Deploy SSIS packages",
+  "publisher": "mmajcica",
+  "description": "Deploy SSIS packages",
   "public": false,
   "galleryFlags": [
     "Public"
@@ -24,21 +24,21 @@
   ],
   "links": {
     "home": {
-      "uri": "http://blog.chitostodomingo.com/"
+      "uri": "http://blog.majcica.com/"
     },
     "support": {
-      "uri": "chito.domingo@flightcente.com.au"
+      "uri": "http://blog.majcica.com/2018/04/25/deploy-ssis-packages-from-tfs-vsts-build-release/"
     },
     "repository": {
-        "uri": "https://github.com/maverick126/DeploySsis"
+        "uri": "https://github.com/mmajcica/DeploySsis"
     },
     "issues": {
-        "uri": "https://github.com/maverick126/DeploySsis/issues"
+        "uri": "https://github.com/mmajcica/DeploySsis/issues"
     }
   },
   "repository": {
       "type": "git",
-      "uri": "https://github.com/maverick126/DeploySsis"
+      "uri": "https://github.com/mmajcica/DeploySsis"
   },
   "branding": {
     "color": "#e9ebed",
